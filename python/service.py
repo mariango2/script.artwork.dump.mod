@@ -65,12 +65,12 @@ class ArtworkService(xbmc.Monitor):
 
     def notify_finished(self, content, success):
         if success:
-            pykodi.execute_builtin('NotifyAll(script.artwork.dump, On{0}ProcessingFinished)'.format(content))
+            pykodi.execute_builtin('NotifyAll(script.artwork.dump.mod, On{0}ProcessingFinished)'.format(content))
         else:
             self.processor.close_progress()
 
     def onNotification(self, sender, method, data):
-        if method.startswith('Other.') and sender != 'script.artwork.dump:control':
+        if method.startswith('Other.') and sender != 'script.artwork.dump.mod:control':
             return
         if method == 'Other.CancelCurrent':
             if self.status == STATUS_PROCESSING:

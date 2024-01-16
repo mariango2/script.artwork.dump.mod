@@ -16,7 +16,7 @@ installed, Artwork Dump can be installed from "Program add-ons". Artwork Dump ca
 with a [single zip file][2], but you will have to update manually.
 
 [1]: https://github.com/rmrector/repository.rector.stuff/raw/python3/latest/repository.rector.stuff-latest.zip
-[2]: https://github.com/rmrector/repository.rector.stuff/raw/python3/latest/script.artwork.dump-latest.zip
+[2]: https://github.com/rmrector/repository.rector.stuff/raw/python3/latest/script.artwork.dump.mod-latest.zip
 
 ## Motivation
 

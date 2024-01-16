@@ -14,7 +14,7 @@ try:
 except TypeError:
     pass
 
-ADDONID = 'script.artwork.dump'
+ADDONID = 'script.artwork.dump.mod'
 
 thumbnailimages = ('image://video@',)
 remoteimages = ('http',)

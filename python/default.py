@@ -50,7 +50,7 @@ def main():
     if selected >= 0 and selected < len(options):
         action = options[selected][1]
         if isinstance(action, str):
-            pykodi.execute_builtin('NotifyAll(script.artwork.dump:control, {0})'.format(action))
+            pykodi.execute_builtin('NotifyAll(script.artwork.dump.mod:control, {0})'.format(action))
         else:
             action()
 

@@ -12,13 +12,13 @@
 		<menu id="kodi.core.main">
 			<menu id="kodi.core.manage">
 				<item library="python/context.py">
-					<label>AD: $ADDON[script.artwork.dump 32410]</label>
-					<visible>Skin.HasSetting(enablecontext:script.artwork.dump) + [String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, set) | String.IsEqual(ListItem.DBTYPE, tvshow) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)]</visible>
+					<label>AD: $ADDON[script.artwork.dump.mod 32410]</label>
+					<visible>Skin.HasSetting(enablecontext:script.artwork.dump.mod) + [String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, set) | String.IsEqual(ListItem.DBTYPE, tvshow) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)]</visible>
 				</item>
 			</menu>
 			<item library="python/context.py">
-				<label>AD: $ADDON[script.artwork.dump 32410]</label>
-				<visible>Skin.HasSetting(enablecontext:script.artwork.dump) + [String.IsEqual(ListItem.DBTYPE, artist) | String.IsEqual(ListItem.DBTYPE, album) | String.IsEqual(ListItem.DBTYPE, song)]</visible>
+				<label>AD: $ADDON[script.artwork.dump.mod 32410]</label>
+				<visible>Skin.HasSetting(enablecontext:script.artwork.dump.mod) + [String.IsEqual(ListItem.DBTYPE, artist) | String.IsEqual(ListItem.DBTYPE, album) | String.IsEqual(ListItem.DBTYPE, song)]</visible>
 			</item>
 		</menu>
 	</extension>
