@@ -13,7 +13,7 @@
 			<menu id="kodi.core.manage">
 				<item library="python/context.py">
 					<label>AD: $ADDON[script.artwork.dump.mod 32410]</label>
-					<visible>Skin.HasSetting(enablecontext:script.artwork.dump.mod) + [String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, set) | String.IsEqual(ListItem.DBTYPE, tvshow) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)]</visible>
+					<visible>Skin.HasSetting(enablecontext:script.artwork.dump.mod) + [String.IsEqual(ListItem.DBTYPE, movie) | String.IsEqual(ListItem.DBTYPE, set) | String.IsEqual(ListItem.DBTYPE, tvshow) | String.IsEqual(ListItem.DBTYPE, season) | String.IsEqual(ListItem.DBTYPE, episode) | String.IsEqual(ListItem.DBTYPE, musicvideo)]</visible>
 				</item>
 			</menu>
 			<item library="python/context.py">
