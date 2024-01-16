@@ -23,7 +23,7 @@ _default_mediatypes = {
     MOVIE: ['poster', 'keyart', 'fanart', 'banner', 'clearlogo', 'landscape', 'clearart', 'discart', 'characterart', 'animatedposter', 'animatedkeyart', 'animatedfanart'],
     MOVIESET: ['poster', 'keyart', 'fanart', 'banner', 'clearlogo', 'landscape', 'clearart', 'discart'],
     SEASON: ['poster', 'fanart', 'banner', 'landscape'],
-    EPISODE: ['fanart'],
+    EPISODE: ['thumb'],
     MUSICVIDEO: ['poster', 'discart', 'fanart', 'artistthumb', 'banner', 'clearlogo', 'clearart', 'landscape'],
     ARTIST: ['thumb', 'fanart', 'banner', 'clearlogo', 'clearart', 'landscape'],
     ALBUM: ['thumb', 'discart', 'back', 'spine'],

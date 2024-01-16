@@ -114,7 +114,7 @@
 					<default></default>
 					<constraints>
 						<options>
-							<option>fanart</option>
+							<option>thumb</option>
 						</options>
 						<delimiter>, </delimiter>
 						<allownewoption>true</allownewoption>
